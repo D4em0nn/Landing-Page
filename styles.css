@@ -134,3 +134,42 @@ button {
     color: #1F2937;
     align-self: flex-end;
 }
+
+.f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    gap: 60px;
+    border-radius: 8px;
+}
+
+.footer .content {
+    display: flex;
+    flex-direction: column;
+}
+.footer .txt {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer button {
+    border:2px solid #E5E7EB;
+    border-radius: 8px;
+    color: #E5E7EB;
+    width: 75px;
+    height: 30px;
+    white-space: nowrap;
+}
